@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"cloudfront","Source":"./modules/cloudfront","Dir":"modules/cloudfront"},{"Key":"s3","Source":"./modules/s3","Dir":"modules/s3"}]}
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"cloudfront","Source":"./modules/cloudfront","Dir":"modules/cloudfront"},{"Key":"s3","Source":"./modules/s3","Dir":"modules/s3"},{"Key":"sqs","Source":"registry.terraform.io/terraform-aws-modules/sqs/aws","Version":"4.2.0","Dir":".terraform/modules/sqs"}]}
