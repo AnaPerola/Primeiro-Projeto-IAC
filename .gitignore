@@ -1,2 +1,5 @@
-awscliv2.zip
-.terraform/providers/registry.terraform.io/hashicorp
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+**/.terraform/*
