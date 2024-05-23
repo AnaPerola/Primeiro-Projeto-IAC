@@ -1,7 +1,7 @@
 module "s3" {
   source         = "./modules/s3"
   s3_bucket_name = "my-bucket-iac"
-  s3_tags        = {
+  s3_tags = {
     Iac = true
   }
 }
@@ -11,7 +11,7 @@ module "cloudfront" {
   origin_id          = module.s3.bucket_id
   bucket_domain_name = module.s3.bucket_domain_name
   depends_on         = [module.s3]
-  cdn_tags           = {
+  cdn_tags = {
     Iac = true
   }
 }
